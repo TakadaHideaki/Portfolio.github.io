@@ -7,12 +7,17 @@
 }
 
 
-
+body{
+    font-family:'Helvetica',sans-serif;
+    font-weight: 100;
+    
+}
 
 .gazou1{
     background-color: #f8f8ff;
     display:flex;
     justify-content: center;
+    padding: 50px 50px;
  
    
 }
@@ -27,7 +32,7 @@
     /* max-width: 80%; */
    
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
-    margin-top:60px;
+    margin-top:10px;
 
 }
 
@@ -110,20 +115,46 @@ padding-left: 50px;
 
 
 .centeralignment{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     line-height: 50px;
     padding: 40px;
+    width: 780px;
+    margin: 0 auto;
+    text-align:left;
+    
 }
-  
+
+.flex-contianer{
+    width: 780px;
+    margin: 0 auto;
+    text-align:left;
+}
+
+
+
+.flex-contianer1{
+    /* width: 780px; */
+    margin: 0 auto;
+    text-align:left;
+}
+
+.centeralignment p{
+font-size: 20px;
+}
+
+
+
+
 
  .technology li{
      list-style:none;
  }
 
 
-.apps{
-    padding: 60px;
+
+
+
   
 }
 .end{
