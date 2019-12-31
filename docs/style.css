@@ -39,8 +39,8 @@ body{
 .gaiyou{
     border:solid 1px #dce4ec;
     line-height: 40px;
-    padding: 30px;
-    width: 800px;
+    padding: 20px;
+    width: 750px;
  
     
 }
@@ -52,10 +52,19 @@ body{
 .socialbtn{
     list-style: none;
     position: absolute;
-    top:60px;
-    right: 60px;
+    top:2px;
+    right: 40px;
     display: flex;
+    
+    
    
+}
+
+
+.socialbtn img{
+    max-width: 33px;
+    padding:20px;
+    
 }
 
 .my-color{
@@ -74,6 +83,7 @@ body{
     display: flex;
     list-style: none;
     justify-content: flex-end;
+    margin-top: 130px;
  
     
 
@@ -155,8 +165,34 @@ font-size: 20px;
 
 
 
-  
+
+.apps p{
+    line-height: 0.1px;
+    margin-bottom: 40px;
+
 }
+  
+.apps span{
+    color: #a9a9a9;
+}
+
+
+.icon-p{
+    padding-left: 98px;
+}
+
+
 .end{
     margin: 40px;
+}
+
+.icon_man:before {
+    content: url(/Users/takadayuuko/Desktop/hide.site/images/icons8-github-96.png) ;
+    position : relative ;
+    bottom : -3em ;
+    right: 1em;
+    margin-right : 0.1em ;
+}
+
+   
 }
