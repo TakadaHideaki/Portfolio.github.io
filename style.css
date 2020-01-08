@@ -15,19 +15,23 @@ body{
 
 .gazou1{
     background-color: #f8f8ff;
-    display:flex;
-    justify-content: center;
-    padding: 50px 50px;
+    /* display:flex; */
+    /* justify-content: center; */
+    /* padding: 50px 50px; */
+    width: 100%;
+    margin: 0 auto;
  }
-
-
-
+.hide1{
+    width: 100%;
+}
 
 
 
 .gazou1 img{
 box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
-    margin-top:10px;
+    margin-top:60px;
+    width: 100%;
+
 
 }
 
@@ -35,19 +39,21 @@ box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
     border:solid 1px #dce4ec;
     line-height: 40px;
     padding: 20px;
+    width: 100%;
+    margin: 0 auto;
     /* width: 750px; */
  
     
 }
 .gazou2{
-    /* width:800px ; */
+    width:100%;
 }
     
 
 .socialbtn{
     list-style: none;
     position: absolute;
-    top:2px;
+    top:30px;
     right: 40px;
     display: flex;
     
@@ -80,9 +86,9 @@ box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);
     justify-content: flex-end;
     margin-top: 130px;
  
-    
-
 }
+
+
 .header-right li{
     /* padding: 20px; */
     margin-right: 60px;
@@ -121,13 +127,12 @@ padding-left: 50px;
 
 .centeralignment{
     /* display: flex; */
-    justify-content: center;
+    /* justify-content: center; */
     line-height: 50px;
     padding: 10px;
-    width: 780px;
-    
+    width:100%;
     margin: 0 auto;
-    text-align:left;
+    /* text-align:left; */
     
 }
 
