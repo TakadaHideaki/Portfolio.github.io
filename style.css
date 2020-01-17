@@ -38,9 +38,9 @@ img{
     
 }
 
-.socialbtn img{
+.socialbtn i{
     max-width: 33px;
-    padding:0px;
+    padding:3px;
 
     
 }
@@ -91,12 +91,24 @@ img{
 
 
 .centeralignment{
-    line-height: 50px; 
-    padding: 10px;
+    line-height: 40px; 
+    padding: 30px;
     text-align:left;
     
     
 } 
+
+
+.centeralignment p{
+    line-height: 30px;
+}
+
+
+
+/* .learning{
+    margin-top: 30px;} */
+
+
 
 
 .gaiyou{
@@ -119,6 +131,7 @@ img{
 }
 
 .gaiyou1 img{
+    max-width: 100%;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);  
 
     
