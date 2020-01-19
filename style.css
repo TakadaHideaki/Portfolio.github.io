@@ -24,6 +24,8 @@ img{
 
 .header{
     background-color: white;
+   
+   
 }
 
 .header-left h2{
@@ -64,6 +66,13 @@ img{
     text-decoration: none;
     font-size: 14px;
 }
+
+
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
 /**************メイン**************/
 
 .gazou1{
@@ -76,8 +85,8 @@ img{
 
  .gazou1 img{
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.1);  
-    margin-top:60px;
-   
+    margin:30px;
+    width:80%;
 
  }
 
@@ -157,7 +166,10 @@ img{
 }
 
    
-
+.senn{
+    margin-left:10%;
+    margin-right:10%; 
+}
 
 
 
