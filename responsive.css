@@ -40,6 +40,17 @@ img{
         padding: 10px;
     }
 
+
+    .gazou1 img{
+        width:70%;
+        margin: 40px;
+    }
+
+    .centeralignment{
+        width: 70%;
+        margin: 0 auto;
+    }
+
 }
 /* ***************************************************** */
 
@@ -59,32 +70,22 @@ img{
 
     
 
-    
-    
-
-    
-
-
-
     .gazou1 img{
-        max-width:100%;
+        width:50%;
         margin: 40px;
     }
 
     
 
     .gaiyou1 img{
-       width: 100%;
+        width: 100%;
         height: auto;
-        background-color: red;
+        
 
     }
 
 
-    .gazou2{
-        margin: 40px;
-    }
-
+    
     .centeralignment{
         width: 50%;
         margin: 0 auto;
@@ -93,9 +94,22 @@ img{
     .header-left h2{
         text-align: start;
         margin-top: 20px;
+        
 
     }
 
+
+     .header{
+        margin:0px 220px;
+        
+    }
+
+   
+        
+
+    
+
+    
 }
 
 
