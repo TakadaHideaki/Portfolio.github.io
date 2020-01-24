@@ -31,6 +31,8 @@ img{
 .header-left h2{
     width:100%;
     text-align: start;
+    font-family:'Osaka',sans-serif;
+    font-weight:bold;
 }
 
 .socialbtn{
@@ -40,9 +42,10 @@ img{
     
 }
 
-.socialbtn i{
+.socialbtn a{
     max-width: 33px;
     padding:3px;
+    color: #696969;
 
     
 }
@@ -110,9 +113,12 @@ img{
 
 .centeralignment p{
     line-height: 30px;
+    font-size: 18px;
 }
 
-
+.centeralignment li{
+    font-size: 18px;
+}
 
 /* .learning{
     margin-top: 30px;} */
@@ -167,8 +173,10 @@ img{
 
    
 .senn{
-    margin-left:10%;
-    margin-right:10%; 
+    margin-left:25%;
+    margin-right:25%; 
+    border-top: 1.5px dashed #c0c0c0;
+  
 }
 
 
