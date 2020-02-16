@@ -81,6 +81,7 @@ img{
 .header-left{
     display: flex;
     align-items: center;
+    margin-bottom: 30px;
 }
 /**************メイン**************/
 
@@ -103,31 +104,15 @@ img{
 
 
 
-h4:before{
-    font-family: "Font Awesome 5 Free";
-    content: '\f118';
-   font-weight: 100;
-   padding-right : 5px;/*文字との隙間*/
-   font-size: 3em;
-   position: relative;
-   top: 28px;
-  
-}
 
 
 
-.prof{
-    line-height: 25px;
-    font-weight: 10;
-    margin:10px 0px;
-    font-size: 13px;
-}
 
 
-.name{
-    font-weight:400;
-    font-size: 15px;
-}
+
+
+
+
 .centeralignment{
     line-height: 40px; 
     padding: 15px;
@@ -148,7 +133,18 @@ h4:before{
 
 
 
+.title{
+    padding-left: 80px;
+    margin-top: 20px;
+   
+   
+   
+    background: url("https://github.com/TakadaHideaki/Portfolio.github.io/blob/master/Frame%201.png?raw=true")no-repeat left center;
+    background-size: 70px;
+    background-position:left top;
 
+
+}
 
 
 .gaiyou{
@@ -169,6 +165,7 @@ h4:before{
 
 .gaiyou1 h2{
     text-align: left;
+    
 }
 
 .gaiyou1 img{
@@ -221,7 +218,7 @@ a{
     /* border: solid  1px  #c0c0c0; */
     /* padding: 40px; */
     /* margin-top:30px; */
-    /* margin-bottom: 30px; */
+    margin-bottom: 30px;
 
     /* border-radius: 5px; */
     /* height: 100%; */
