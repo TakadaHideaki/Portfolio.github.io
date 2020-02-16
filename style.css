@@ -34,7 +34,7 @@ img{
 .header-left h2{
     width:100%;
     text-align: start;
-    margin-left: 70px;
+    margin-left: 10px;
     font-family:"Noto Sans Japanese",sans-serif;
     font-weight:bold;
     color: #696969;
@@ -45,7 +45,7 @@ img{
     list-style: none;
     display: flex;
     justify-content:flex-end;
-    
+  
 }
 
 .socialbtn a{
@@ -58,23 +58,23 @@ img{
 
 
 
-.header-right ul{
+/* .header-right ul{
     display: flex;
     list-style: none;
     justify-content: flex-end;
     margin-top: 10px;
     
- }
+ } */
 
- .list li{
+ /* .list li{
      padding-right: 10px;
- }
+ } */
 
-.header-right a{
+/* .header-right a{
     color: #000;
     text-decoration: none;
     font-size: 14px;
-}
+} */
 
 
 
@@ -101,13 +101,33 @@ img{
 
 
 
- .apps p{
-    line-height: 40px;
-    margin:0 10px;
 
+
+h4:before{
+    font-family: "Font Awesome 5 Free";
+    content: '\f118';
+   font-weight: 100;
+   padding-right : 5px;/*文字との隙間*/
+   font-size: 3em;
+   position: relative;
+   top: 28px;
+  
 }
 
 
+
+.prof{
+    line-height: 25px;
+    font-weight: 10;
+    margin:10px 0px;
+    font-size: 13px;
+}
+
+
+.name{
+    font-weight:400;
+    font-size: 15px;
+}
 .centeralignment{
     line-height: 40px; 
     padding: 15px;
@@ -166,17 +186,26 @@ img{
    
 }
 
-.icon_man::before {
+/* .icon_man::before {
     content: url(/Users/takadayuuko/Desktop/hide.site/images/icons8-github-96.png) ;
     position : relative ;
     right: 0.5em;
     
-}
-.appman {
-    position: absolute;
-    padding-top: 10px;
+} */
+
+
+.appman{
+    font-size: 20px;
 }
 
+
+
+
+
+
+a{
+    color: #000;
+}
    
 .senn{
     margin-left:25%;
@@ -189,21 +218,41 @@ img{
 }
 
 .snsbutton{
-    border: solid  1px  #c0c0c0;
-    padding: 20px;
-    margin-top:30px;
-    margin-bottom: 30px;
-    border-radius: 5px;
+    /* border: solid  1px  #c0c0c0; */
+    /* padding: 40px; */
+    /* margin-top:30px; */
+    /* margin-bottom: 30px; */
 
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content:center;
+    /* border-radius: 5px; */
+    /* height: 100%; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content:center; */
  }
 
-.snsbutton a{
-    color: #fff;
-    text-decoration: none;
+
+.wannko{
+    width: 100%;
+    text-align: center;
+    
+
+}
+    
+
+
+
+
+/* 画像をボタン風にする */
+.wannko a:hover{
+    opacity:0.5;
+    cursor: pointer;
+
+}
+
+/* 今いる位置から相対的に3px下に配置する。*/
+.wannko:active{
+    position: relative;
+	top: 3px;
 }
 
 
