@@ -79,23 +79,18 @@
        
         <div class="centeralignment">
            <div class="gaiyou1">
-              <h2>サービス概要</h2>
              　<!-- <img class="gazou2"src="https://github.com/TakadaHideaki/Portfolio.github.io/blob/master/Untitled.png?raw=true">  -->
              　<!-- <img class="gazou2" src="https://github.com/TakadaHideaki/Portfolio.github.io/blob/master/docs/flowImage.png?raw=true"> -->
-              <h2>Flow</h2>
               <h2 id="jump">サービスを作った理由</h2>
-             　<p>現在、出会った事のない人同士を繋ぐサービスは、多々ありますが既に、出会った事のある人同士を再び繋ぐサービスが、facebookしか見つかりませんでした。</p>
-　　　　　　　   <p>しかしFacebookは、多数と繋がる事が前提なので</p>
-　　　　　　　　　<p>•多数とは繋がりがたくないので登録していない(自分はこのケース)</p>
-　　　　　　　　　<p>•検索制限をかけている</p>
-　　　　　　　　　<p>•苗字が変わっている</p>
-　　　　　　　　　<p>などのケースでは見つける事ができません。</p>
-　　　　　　　　  <p>そこで繋がりたい人を指定することで</p>
-               <p>•多数に見られないので安心</p>
-               <p>•繫りたい人からは、検索される事が出来る</p>
-               <p>•繫りたい人が知っている名前で登録すれば名前でのミスマッチが起きない</p>
-               <p>等により、今でも気になる過去の人、</p>
-               <p>Facebookで見つからなかった人、を再び繋げる事が出来ると考えてサービスを作りました</p>
+             　<p>現在、出会った事のない人同士を繋ぐサービスは、多々ありますが既に、出会った事のある人同士を再び繋ぐサービスが、facebookしか見つかりませんでした。<br>しかしFacebookは、多数と繋がる事が前提なので<br><br>
+<li>多数とは繋がりがたくないので登録していない(自分はこのケース)</li>
+<li>検索制限をかけている</li>
+<li>苗字が変わっている</li>
+<br>などのケースでは見つけられません。そこで繋がりたい人を指定することで
+<li>多数に見られないので安心</li>
+<li>繋がりたい人からは、検索される事が出来る</li>
+<li>繋がりたい人が知っている名前で登録すれば名前でのミスマッチが起きない。</li>
+<br>等により、今でも気になる過去の人、Facebookで見つからなかった人、を再び繋げる事が出来ると考えてサービスを作りました</p>
                <p>&nbsp;</p>
                <p>&nbsp;</p>
               <img class="gazou2"src="https://github.com/TakadaHideaki/Portfolio.github.io/blob/master/Untitled%20(5).png?raw=true"> 
@@ -116,7 +111,7 @@
         <div class="centeralignment">
            <div class="jittuso">
              <h2>実装機能</h2>
-               <p>ユーザー新規登録、ログイン（ユーザーメールアドレス、googoleアカウント)、ログアウト、退会、投稿リスト、ユーザー情報の投稿、編集、マッチユーザーの検索、ユーザーブロック機能、お問い合わせ</p>
+               <p>ユーザー新規登録、ログイン（ユーザーメールアドレス、googoleアカウント)、パスワード忘れによる再設定、ログアウト、退会、投稿リスト、ユーザー情報の投稿、編集、マッチユーザーの検索、ユーザーブロック機能、お問い合わせ</p>
            </div>
        </div>
 
@@ -125,10 +120,10 @@
            <div class="technology">
               <h1>使用技術</h1>
               <h3>mBaaS  Firebase</h3>
-              <li>投稿データ(RealtimeDataBase)</li>
-              <li>ユーザー管理(Firebase Authentication)</li>
-              <li>画像(FireStorage)</li>
-              <p>などでバックエンドの処理はほぼFirebaseを使用しました。</p>
+              <li>RealtimeDataBase（投稿データ）</li>
+              <li>Firebase Authentication（ユーザー管理,ユーザー毎にID付与）</li>
+              <li>FireStorage（画像）</li>
+              <p>データの安全性を高める目的と、現場に近い環境で開発がしたかったので開発環境とリリース用でFirebaseのプロジェクト（データの保存先）をBuildのTarget毎に処理を切り分けました</p>
            </div>
         </div>
            
@@ -174,7 +169,7 @@
        <div class="centeralignment">  
               <div class="technology">
                 <h3>UX/UI  XLPagerTabStrip</h3>
-                <p>ユーザーのSignUp/LogInの切り替えをスワイプで出来る様にしました。NewsPickd」のログインUIに使われていたので、同じUIにしたくXLPagerTabStripを導入しました。既存のappを参考に同じUIを作成する事が出来ました。</p>
+                <p>SignUp/LogInをスワイプで切り替えにしました。NewsPicksのログインUIを参考に、XLPagerTabStripで同じUIを実装出来ました。自力で既存のappと同じUIを実装しました</p>
              </div>
        </div>
 
@@ -182,7 +177,7 @@
        <div class="centeralignment">  
               <div class="technology">
                 <h3>写真加工  RSKImageCropper</h3>
-                 <p>写真ライブラリを立ち上げ選択した写真を丸く切り抜きます。写真投稿する為には写真ライブライり立ち上げ、写真の選択、切り抜き範囲の選択、画像を切り抜きたいポイントへ移動等、割と工数のかかる作業なので大変助かりました。今後はライブラリを使わなくても、実装できる様学習していきたいと思います。</p>           
+                 <p>写真ライブラリを立ち上げ選択した写真を丸く切り抜きます。<br>写真投稿時の、フォトライブラリ立ち上げ→写真選択→切り抜き範囲選択→画像位置調整等、工数のかかる処理をRSKImageCropperの導入で短時間で実装しました。今後はライブラリ無しでも、実装できるスキルを身に付けたいと思います。</p>           
              </div>
        </div>
 
@@ -190,20 +185,20 @@
        <div class="centeralignment">  
               <div class="technology">
                 <h3>Design</h3>
-                <p>「LTMorphingLabel」 　 Labelアニメーション</p>
-                <p>「XLPagerTabStrip」 　  TextFieldアニメーション</p>
-                <p>「NVActivityIndicatorView」  　Indicatorアニメーション</p>
-                <p>全体的にシンプルな印象だったのでラベル等にアニメーションを加え装飾しました。</p>
+                <li>LTMorphingLabel 　 Labelアニメーション</li>
+                <li>XLPagerTabStrip　  TextFieldアニメーション</li>
+                <li>NVActivityIndicatorView  　Indicatorアニメーション</li>
+                <p>アプリのデザインがシンプルだったので装飾しました。</li>
              </div>
        </div>
 
        <div class="centeralignment">  
               <div class="technology">
                 <h3>APPデプロイ</h3>
-                 <p>「GoogleForms」AppStoreのプロダクトページのお問い合わせで利用しています。</p>
-                 <p>「Figma」アイコン作成、AppStore用ScreenShot</p>
-                 <p>「MakeAppIcon」デプロイ時に必要な沢山のアイコンサイズを一括作成してくれます。</p>
-                 <p>「GitHubPages」 プライバシーポリシーの設置やこのサイトにも利用しています。</p>
+                 <li>GoogleFormsAppStore　プロダクトページのお問い合わせ</li>
+                 <li>Figma　アイコン作成、AppStore用ScreenShot</li>
+                 <li>MakeAppIcon　デプロイ時に必要な沢山のアイコンサイズを一括作成してくれます。</li>
+                 <li>GitHubPages　プライバシーポリシーの設置やこのサイトにも利用しています。</li>
              </div>
        </div>
 
