@@ -134,14 +134,18 @@ img{
 
 
 .title{
-    padding-left: 80px;
+    padding-left: 90px;
     margin-top: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border: solid 1px;
+    border-radius: 5px;
    
    
    
     background: url("https://github.com/TakadaHideaki/Portfolio.github.io/blob/master/Frame%201.png?raw=true")no-repeat left center;
     background-size: 70px;
-    background-position:left top;
+    background-position:left center;
 
 
 }
@@ -231,6 +235,8 @@ a{
 .wannko{
     width: 100%;
     text-align: center;
+    background-color: #f5f5f5;
+    padding-top: 20px;
     
 
 }
